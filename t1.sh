@@ -1,5 +1,4 @@
-pkg  install figlet
-exit  0 && ls && bash t1.sh
+pkg  install figlet && ls && bash t1.sh
 figlet  Azakios
 echo -e "\e[36mWELCOME EVERYONE\e[0m";
 echo -e "\e[34m(+)TOOL BY AZAKIOS TEAM\e[0m";
