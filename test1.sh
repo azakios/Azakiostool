@@ -8,7 +8,7 @@ then
 3.CLEAR AND GO TO HOME DIRECTORY
 \e[0m";
 else
- clear && ls 
+ cntrl + c && clear && cd .. && pwd
 fi
 read -p 'Enter The No of Tool :' userinput1;
 #
