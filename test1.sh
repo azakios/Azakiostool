@@ -7,6 +7,8 @@ then
 1.CHEETAH-THE HACKING TOOL  2.AZAKIOSTEAM-ALL ABOUT US
 3.CLEAR AND GO TO HOME DIRECTORY
 \e[0m";
+else
+ clear && ls 
 fi
 read -p 'Enter The No of Tool :' userinput1;
 #
@@ -20,5 +22,5 @@ then
 fi
 if [ "${userinput1:-}" = "3" ]
 then
-	clear  && cd .. && pwd
+	clear  && cd .. && pwd && cd ..
 fi
