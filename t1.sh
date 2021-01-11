@@ -60,9 +60,6 @@ read -p 'Did u enjoy this (yes or no)' userinput3;
 if [ "${userinput3:-}" = "yes" ]
 then
 	figlet  Thank You Dear
-fi
-if [ "${userinput3:-}" != "yes" ]
-then
-	exit 1 && ls  bash t1.sh
-
+else
+exit 1 && ls  bash t1.sh
 fi
