@@ -1,3 +1,6 @@
+pkg  install figlet && clear && figlet  Azakios
+echo -e "\e[36mWELCOME EVERYONE\e[0m";
+echo -e "\e[34m(+)TOOL BY AZAKIOS TEAM\e[0m";
 read -p 'Enter Your Name :' userinput1;
 #
 if [ "${userinput1:-}" = "Azakios" ]
@@ -10,7 +13,7 @@ if [ "${userinput2:-}" = "Fine" ]
 then
 	echo -e "\e[35mGreat stay happy\e[0m";
 fi
-if [ "${userinput2:-}" = "Anu" ]
+if [ "${userinput1:-}" = "Anu" ]
 then
 	echo -e "\e[94mHey Queen wow nice to see u here\e[0m";
 fi
