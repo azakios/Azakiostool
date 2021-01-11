@@ -54,13 +54,5 @@ then
 	figlet  Oii SMILE EVERYTHING WILL BE FINE,Tnsn mae raeth
 
 fi
-echo -e "\e[33mBE PATIENT \e[0m";
-read -p 'Did u enjoy this (yes or no)' userinput3;
-#
-if [ "${userinput3:-}" = "yes" ]
-then
-	figlet  Thank You Dear
-else
-exit 0
-fi
+
 
