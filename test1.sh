@@ -8,7 +8,9 @@ then
 3.CLEAR AND GO TO HOME DIRECTORY
 \e[0m";
 else
- cntrl + c && clear && cd .. && pwd
+ echo "Access denied,wrong Input,Use Azakios"
+ exit 1
+
 fi
 read -p 'Enter The No of Tool :' userinput1;
 #
