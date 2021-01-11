@@ -61,5 +61,6 @@ if [ "${userinput3:-}" = "yes" ]
 then
 	figlet  Thank You Dear
 else
-exit 1 && ls  bash t1.sh
+exit 0
+fi
 
