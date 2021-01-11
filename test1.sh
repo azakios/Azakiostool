@@ -7,15 +7,17 @@ then
 3.CLEAR AND GO TO HOME DIRECTORY
 \e[0m";
 fi
-if [ "${userinput0:-}" = "1" ]
+read -p 'Enter The No of Tool :' userinput1;
+#
+if [ "${userinput1:-}" = "1" ]
 then
 	git  clone https://github.com/azakios/cheetah.git
 fi
-if [ "${userinput0:-}" = "2" ]
+if [ "${userinput1:-}" = "2" ]
 then
 	git  clone https://github.com/azakios/AzakiosTeam.git
 fi
-if [ "${userinput0:-}" = "3" ]
+if [ "${userinput1:-}" = "3" ]
 then
 	clear  && cd .. && pwd
 fi
