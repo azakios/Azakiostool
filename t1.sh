@@ -26,8 +26,8 @@ if [ "${userinput3:-}" = "yes" ]
 then
 	figlet  Thank You Dear
 fi
-if [ "${userinput3:-}" != "exit 1" ]
+if [ "${userinput3:-}" != "yes" ]
 then
-	ls  bash t1.sh
+	exit 1 && ls  bash t1.sh
 ;
 fi
